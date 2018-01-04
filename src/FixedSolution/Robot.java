@@ -18,9 +18,10 @@ public class Robot {
 				return "west";
 			case 360:
 				return "north";
+			default:
+				return null;
 			
 		}
-		return null;
 	}
 	
 	public void setDirection(Character directionChar) {
