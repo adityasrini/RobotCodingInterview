@@ -7,7 +7,6 @@ public class Robot {
 		while (direction > 360 || direction < 0) {
 			direction = direction > 360 ? direction - 360 : direction + 360;
 		}
-		System.out.println(direction);
 		switch (direction) {
 			case 0:
 				return "north";
