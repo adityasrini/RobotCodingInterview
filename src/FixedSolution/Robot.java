@@ -5,12 +5,6 @@ public class Robot {
 	
 	public String getDirection() {
 		while (direction > 360 || direction < 0) {
-//			if (direction >= 360) {
-//				direction -= 360;
-//			}
-//			if (direction <= 0) {
-//				direction += 360;
-//			}
 			direction = direction > 360 ? direction - 360 : direction + 360;
 			
 		}
